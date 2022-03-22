@@ -1,6 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
+<title>About Us Page</title>
+
 <style>
 * {
   box-sizing: border-box;
@@ -8,6 +9,10 @@
 
 body {
   font-family: Times New Roman, sans-serif;
+}
+
+h1 { font-size:30px;
+	 text-decoration: underline;
 }
 
 /* Style the header */
@@ -20,18 +25,29 @@ header {
 }
 
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: white;
-  height: 600px; 
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
+article {
+  float: center;
+  padding: 20%px;
+  width: 70%;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: DodgerBlue;
   padding: 10px;
   text-align: center;
   color: white;
@@ -39,49 +55,66 @@ footer {
 
 
 
+}
 </style>
 </head>
 <body>
 
-<h2></h2>
-<p></p>
-<p></p>
+
 
 <header>
-  <h2>Michael and Michelle's March Madness</h2>
+  <h2>MICHAEL AND MICHELLE'S MARCH MADNESS</h2>
 </header>
 
 <section>
 
-  
   <article>
-    <h1 style="font-family:verdana;">About Us</h1>
-    <p>Michael and Michelle’s March Madness was founded in 1985 when a 17-year-old Michael Wu was playing at an AAU basketball tournament in Naperville, Illinois. During his warmup, he was approached by his teammate’s older sister, Michelle Jane, who suggested that Michael should get new shoes, since he was slipping when trying to do layups. Michael then learned that Michelle was a shoe designer and asked if she could design new shoes for him so he could better perform on the court. They began to work together and designed their first line of basketball shoes in December of 1985. From then on, they expanded their product line to a variety of high quality basketball equipment that ensured stability and support for athletes on the court. By the late 90’s, Michael and Michelle’s March Madness had twenty retail locations across the United States.</p>
-<center><text><center>
-<img src="https://images.complex.com/complex/image/upload/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/anus7fbkctxzpbglgjzv.jpg" alt="Basketball History" width="500" height="300">
+<h1 style="color:orange;">About Us</h1>
+    
+    <p>Michael and Michelle’s March Madness was founded in 1985 when a 17-year-old Michael Wu was playing at an AAU basketball tournament in Naperville, Illinois. During his warmup, he was approached by his teammate’s older sister, Michelle Jane, who suggested that Michael should get new shoes, since he was slipping when trying to do layups. Michael then learned that Michelle was a shoe designer and asked if she could design new shoes for him so he could better perform on the court. They began to work together and designed their first line of basketball shoes in December of 1985. From then on, they expanded their product line to a variety of high quality basketball equipment that ensured stability and support for athletes on the court. By the late 90’s, Michael and Michelle’s March Madness had twenty retail locations across the United States.</u></p>
+     <font face= "sans-serif" </font>
+<p> <ul>Our Locations:</ul>
+	<li> Chicago </li>
+	<li> Atlanta</li>
+	<li> New York </li>
+    <li> Los Angeles</li>
+    <li> Las Vegas</li>
+    </ol>
+	</font>
+</p>
+    
+	<img src="https://images.complex.com/complex/image/upload/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/anus7fbkctxzpbglgjzv.jpg" alt="Basketball Store" width="500" height="300">
+    
 
-<center><text><center> 
-    <p>Today, headquartered in Chicago, IL, Michael and Michelle’s March Madness is a leading basketball goods retailer offering an extensive assortment of authentic, high-quality basketball equipment, apparel, footwear and accessories. The company serves and inspires athletes to achieve their personal best through a combination of its dedicated teammates, in-store services and unique specialty. In addition, Michael and Michelle’s March Madness offers its products through a dynamic eCommerce platform that is integrated with its store network and provides customers with the convenience and expertise of a 24-hour storefront. </p>
-    <img src="https://retaildesignblog.net/wp-content/uploads/2014/01/Nike-Basketball-shop-by-Specialnormal-Chiba-Japan-02.jpg" alt="Basketball Store" width="500" height="300">
- <p style = "font-family:verdana;"> <u> Our Locations </u></p>
- <ol>
- <li>Chicago</li>
- <li>New York</li>
- <li>Los Angeles</li>
- <li>Phoenix</li>
- <li>Miami</li>
- </ol>
+
+
+
+<h1 style="color:orange;">Our Values</h1>
+    
+    <p>Today, headquartered in Chicago, IL, Michael and Michelle’s March Madness is a <i>leading</i> basketball goods retailer offering an extensive assortment of authentic, <i>high-quality</i> basketball equipment, apparel, footwear and accessories. The company serves and inspires athletes to achieve their personal best through a combination of its dedicated teammates, in-store services and unique specialty. In addition, Michael and Michelle’s March Madness offers its products through a dynamic eCommerce platform that is integrated with its store network and provides customers with the convenience and expertise of a <b>24-hour storefront.</b></p>
+	
+   <font face= "sans-serif" </font>
+<p> <ul>Our Products Include:</ul>
+	<li> Jerseys </li>
+	<li> Basketball Equipment </li>
+	<li> Accessories </li>
+ </ul> 
+ </font>
+</p>
+	<img src="https://retaildesignblog.net/wp-content/uploads/2014/01/Nike-Basketball-shop-by-Specialnormal-Chiba-Japan-02.jpg" width="350" height="200">
+
  
   </article>
 </section>
 
-<footer> 
-  <p><i>Contact Us</i></p>
-  <p><i>847-789-9090</i></p>
-  <p><i>mmadness@gmail.com</i></p>
- <p><script>var date = document.lastModified;
- document.write("Page Last Modified: "+date);
-</script></p>
+<footer>
+  <br>
+<button type="button" onclick="alert('bbeuche@purdue.edu')">Contact Us</button>
+<li>Office Number: 847-466-7788</li>
+	<li>Email: MMMarchMadness@gmail.com</li>
+	<li>Address: 111 South Street, Chicago, IL</li>
+  <p><script>var date = document.lastModified;
+         document.write("Page Last Modified: "+date);</script></p>
 </footer>
 
 </body>
